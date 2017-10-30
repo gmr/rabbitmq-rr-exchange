@@ -1,5 +1,7 @@
 # RabbitMQ Round-Robin Exchange Plugin
 
+[![Build Status](https://travis-ci.org/gmr/rabbitmq-rr-exchange.svg?branch=master)](https://travis-ci.org/gmr/rabbitmq-rr-exchange)
+
 A RabbitMQ Plugin that adds a round-robin exchange type. Messages routed
 through a `x-round-robin` exchange will be distributed evenly across all bound
 destinations (queues and/or exchanges).
